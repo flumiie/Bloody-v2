@@ -170,10 +170,6 @@
 /*
 Hide the song duration and elapsed text. I dont know where to put those so I just hide them
 */
-/* .view-player .player-controls-container .progress-container .elapsed,
-.view-player .player-controls-container .progress-container .remaining {
-  display: none !important;
-} */
 .view-player .player-controls-container .progress-container .elapsed,
 .view-player .player-controls-container .progress-container .remaining {
   position: absolute;
@@ -258,10 +254,6 @@ form, so I move last cover to the right 20px and first one to the left 20px
   background-image: none !important;
   background: var(--modspotify_main_bg);
 }
-
-/* .glue-page-header__sticky {
-  	padding-top: 60px !important;
-} */
 
 /*
 Remove those title, cringy description and
