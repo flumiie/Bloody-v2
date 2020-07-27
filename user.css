@@ -185,11 +185,21 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
 }
 .view-player .player-controls-container .progress-container .elapsed {
   left: 50%;
-  transform: translateX(-150%);
+  transform: translateX(-108%);
+  top: 16px;
+  width: 70px;
+  bottom: -38px;
+  align-items: center;
+  border-bottom: 2px solid red;
 }
 .view-player .player-controls-container .progress-container .remaining {
+  transform: translateX(108%);
   right: 50%;
-  transform: translateX(150%);
+  top: 15px;
+  width: 70px;
+  bottom: -35px;
+  align-items: center;
+  border-top: 2px solid red;
 }
 
 /* Add round corner for Gerne and Mood cards */
@@ -624,7 +634,7 @@ span.glue-page-header__title-text {
 }
 .progress-container .progress-bar::before {
   content: '/';
-  font-size: 2em;
+  font-size: 2.6em;
   position: absolute;
   left: 50%;
   bottom: -34px;
