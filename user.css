@@ -639,21 +639,25 @@ span.glue-page-header__title-text {
   top: 0 !important;
   margin-top: 0 !important;
   height: 5px;
-  transition: top 0.2s ease, height 0.2s ease;
+  transition: top 0.1s ease, height 0.1s ease;
 }
 .progress-container .progress-bar .handle {
-  transition: top 0.2s ease;
+  transition: top 0.1s ease;
 }
 .progress-container .progress-bar:hover {
   top: -2.5px !important;
   margin-top: 0 !important;
   height: 10px;
 }
+.progress-container .progress-bar .handle {
+  display: none;
+}
 .progress-container .progress-bar:hover .inner {
   top: 0px !important;
   height: 8px;
 }
 .progress-container .progress-bar:hover .handle {
+  display: initial;
   top: -3px;
   width: 16px;
   height: 16px;
