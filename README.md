@@ -6,5 +6,6 @@ Install spicetify-cli to apply this theme. You can learn more [here](https://git
 
 ## Screenshots
 
-![MacOS Spotify #1](screenshot1.jpg)
-![MacOS Spotify #2](screenshot2.jpg)
+![Playlist](./screenshots/screenshot1.jpg)
+![Browse](./screenshots/screenshot2.jpg)
+![Artist Page](./screenshots/screenshot3.jpg)
