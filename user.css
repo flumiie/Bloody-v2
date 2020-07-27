@@ -626,19 +626,25 @@ span.glue-page-header__title-text {
   color: var(--modspotify_main_fg) !important;
 }
 
+.view-player .player-controls-container::after {
+  content: '/';
+  font-size: 2.5em;
+  position: absolute;
+  left: 50%;
+  bottom: 51px;
+  transform: translateX(-50%);
+}
 .progress-container .progress-bar,
 .progress-container .inner {
   top: 0 !important;
   margin-top: 0 !important;
   height: 5px;
+  transition: top 0.2s ease, height 0.2s ease;
 }
-.progress-container .progress-bar::before {
-  content: '/';
-  font-size: 2.6em;
-  position: absolute;
-  left: 50%;
-  bottom: -34px;
-  transform: translateX(-50%);
+.progress-container .progress-bar:hover {
+  top: -2.5px !important;
+  margin-top: 0 !important;
+  height: 10px;
 }
 
 .progress-container .progress-bar-wrapper {
