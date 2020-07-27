@@ -638,8 +638,13 @@ span.glue-page-header__title-text {
 .progress-container .inner {
   top: 0 !important;
   margin-top: 0 !important;
-  height: 5px;
   transition: top 0.1s ease, height 0.1s ease;
+}
+.progress-container .progress-bar {
+  height: 5px;
+}
+.progress-container .inner {
+  height: 2.5px;
 }
 .progress-container .progress-bar .handle {
   transition: top 0.1s ease;
