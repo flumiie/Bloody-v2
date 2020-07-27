@@ -6,6 +6,9 @@ Install spicetify-cli to apply this theme. You can learn more [here](https://git
 
 ## Screenshots
 
+### Playlist
 ![Playlist](./screenshots/screenshot1.jpg)
+### Browse
 ![Browse](./screenshots/screenshot2.jpg)
+### Artist Page
 ![Artist Page](./screenshots/screenshot3.jpg)
