@@ -190,7 +190,7 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
   width: 70px;
   bottom: -38px;
   align-items: center;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid var(--modspotify_main_fg);
 }
 .view-player .player-controls-container .progress-container .remaining {
   transform: translateX(108%);
@@ -199,7 +199,7 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
   width: 70px;
   bottom: -35px;
   align-items: center;
-  border-top: 2px solid red;
+  border-top: 2px solid var(--modspotify_main_fg);
 }
 
 /* Add round corner for Gerne and Mood cards */
@@ -564,6 +564,11 @@ body:not(.body-container--windows)
 span.glue-page-header__title-text {
   color: var(--modspotify_main_fg);
 }
+span.glue-page-header__title-text::before {
+  content: '|';
+  font-size: 60px;
+  font-weight: 400;
+}
 
 .glue-page-header .glue-page-header__content-inner .glue-page-header__button {
   margin-top: 40px;
@@ -737,7 +742,8 @@ span.glue-page-header__title-text {
 }
 
 .glue-page-header__content .glue-page-header__label {
-  margin-left: -2px;
+  margin-left: 1.5px;
+  margin-bottom: -12px;
   z-index: 2;
 }
 
