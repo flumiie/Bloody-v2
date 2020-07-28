@@ -173,9 +173,12 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
 .view-player .player-controls-container .progress-container .elapsed,
 .view-player .player-controls-container .progress-container .remaining {
   position: absolute;
+  top: 1.4em;
+  bottom: -2.5em;
+  width: 70px;
   font-size: 1.3em;
   line-height: 0 !important;
-  bottom: -25px;
+  align-items: center;
 }
 .view-player .player-controls-container .progress-container .remaining::before {
   content: '/';
@@ -186,19 +189,11 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
 .view-player .player-controls-container .progress-container .elapsed {
   left: 50%;
   transform: translateX(-108%);
-  top: 16px;
-  width: 70px;
-  bottom: -38px;
-  align-items: center;
   border-bottom: 2px solid var(--modspotify_main_fg);
 }
 .view-player .player-controls-container .progress-container .remaining {
   transform: translateX(108%);
   right: 50%;
-  top: 15px;
-  width: 70px;
-  bottom: -35px;
-  align-items: center;
   border-top: 2px solid var(--modspotify_main_fg);
 }
 
@@ -634,7 +629,7 @@ span.glue-page-header__title-text {
   font-size: 2.5em;
   position: absolute;
   left: 50%;
-  bottom: 51px;
+  bottom: 1.2em;
   transform: translateX(-50%);
 }
 .progress-container .progress-bar,
@@ -761,8 +756,8 @@ body.remotebar .view-player .player-bar-wrapper {
 }
 
 /**
-  Spoticon Labels
-**/
+ * Spoticon Labels
+ **/
 .spoticon-home-24 span::after,
 .spoticon-home-active-24 span::after,
 .spoticon-browse-24 span::after,
@@ -859,4 +854,15 @@ span.spoticon-podcasts-24::after {
 
 .Header__image-inner {
   box-shadow: unset;
+}
+
+/**
+ * Player Controls
+ **/
+#player-button-shuffle,
+#player-button-previous,
+#player-button-play,
+#player-button-next,
+#player-button-repeat {
+  bottom: -1.5em;
 }
