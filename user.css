@@ -37,6 +37,9 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 3px !important;
 }
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--modspotify_main_fg) !important;
+}
 
 /*Hide top and bottom buttons of scrollbar */
 /*who uses those, lol*/
