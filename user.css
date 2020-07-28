@@ -534,16 +534,13 @@ body:not(.body-container--windows)
   .glue-page-header__title-text,
 .HomeHeader .Header__content-inner .Header__title-text-inner,
 .MadeForYouHeader .Header__content-inner .Header__title-text-inner,
-.RecentlyPlayedPage__header .Header__content-inner .Header__title-text-inner {
-  background: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0.25) 25%,
-    rgba(0, 0, 0, 0)
-  );
+.RecentlyPlayedPage__header .Header__content-inner .Header__title-text-inner,
+.RadioHubRoot .Header__title-text-inner {
   padding: 5px 20px;
-  border-radius: 6px;
-  border-left: 5px solid var(--modspotify_main_fg) !important;
   text-transform: uppercase;
+  border-radius: 0;
+  border-left: 5px solid var(--modspotify_main_fg) !important;
+  border-bottom: 5px solid var(--modspotify_main_fg) !important;
 }
 
 .glue-page-header.glue-page-header--album
@@ -564,7 +561,8 @@ body:not(.body-container--windows)
 span.glue-page-header__title-text {
   color: var(--modspotify_main_fg);
 }
-span.glue-page-header__title-text::before {
+
+.playlist-header-wrapper span.glue-page-header__title-text::before {
   content: '|';
   font-size: 60px;
   font-weight: 400;
