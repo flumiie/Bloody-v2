@@ -176,8 +176,8 @@ Hide the song duration and elapsed text. I dont know where to put those so I jus
 .view-player .player-controls-container .progress-container .elapsed,
 .view-player .player-controls-container .progress-container .remaining {
   position: absolute;
-  top: 1.4em;
-  bottom: -2.5em;
+  top: 1.2em;
+  bottom: -2.7em;
   width: 70px;
   font-size: 1.3em;
   line-height: 0 !important;
@@ -629,10 +629,11 @@ span.glue-page-header__title-text {
 
 .view-player .player-controls-container::after {
   content: '/';
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: 200;
   position: absolute;
   left: 50%;
-  bottom: 1.2em;
+  bottom: 1em;
   transform: translateX(-50%);
 }
 .progress-container .progress-bar,
