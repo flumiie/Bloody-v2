@@ -1,5 +1,10 @@
 # Bloody v2
 
+Apply the theme by copying the file into ~/spicetify-cli/Themes and run ...
+```
+spicetify config current_theme Bloody-v2 && spicetify apply
+```
+
 ## Screenshots
 
 ### Playlist
